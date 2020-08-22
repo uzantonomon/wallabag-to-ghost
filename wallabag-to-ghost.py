@@ -50,7 +50,7 @@ def generate_html_file(html_file, links):
                 + link
                 + '" target="_blank"'
                 + '>'
-                + ((link[:55] + "... ") if len(link) > 55 else link)
+                + ((link[:66] + "... ") if len(link) > 66 else link)
                 + "</a>"
             )
             html_file.write("\n")
@@ -90,7 +90,7 @@ def update_page(html_file, page, date):
         headers = {"Authorization": "Ghost {}".format(complete_token.decode())}
         body = {
             "pages": [
-                {"title": "What's in my Wallabag", "html": data, "updated_at": date}
+                {"title": "Bookmarks", "html": data, "updated_at": date}
             ]
         }
     requests.put(url, json=body, headers=headers)
