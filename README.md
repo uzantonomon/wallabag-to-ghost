@@ -31,4 +31,4 @@ $ crontab -e
 $ 0 * * * * /path/to/env/bin/python /home/example/wallabag-to-ghost.py
 ```
 
-You can find the final page <a href="https://diogoferreira.pt/whats-in-my-wallabag" target="_blank">here</a>.
+You can find the final page <a href="https://diogoferreira.pt/bookmarks/" target="_blank">here</a>.
