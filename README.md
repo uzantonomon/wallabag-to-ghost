@@ -84,13 +84,13 @@ ADMIN_KEY = your_ghost_admin_api_key
 Run the script manually:
 
 ```
-python3 wallabag-to-ghost.py
+python3 wallabag_to_ghost.py
 ```
 
 Or set up a cron job to run it automatically:
 
 ```
-0 * * * * /path/to/python3 /path/to/wallabag-to-ghost.py
+0 * * * * /path/to/python3 /path/to/wallabag_to_ghost.py
 ```
 
 This example runs the script hourly.
