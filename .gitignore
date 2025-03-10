@@ -4,4 +4,4 @@
 __pycache__/
 env/
 links.html
-secrets.py
+config.ini

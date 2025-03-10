@@ -1,0 +1,14 @@
+[WALLABAG]
+CLIENT_ID = your-wallabag-client-id
+CLIENT_SECRET = your-wallabag-client-secret
+USERNAME = your-wallabag-username
+PASSWORD = your-wallabag-password
+AUTH_URL = https://wallabag.example.com/oauth/v2/token
+ENTRIES_URL = https://wallabag.example.com/api/entries.json
+HTML_FILE = {your_file_name}.html
+
+[GHOST]
+PAGE_TO_UPDATE = https://ghost.example.com/ghost/api/admin/pages/{page_id_from_editor}/?source=html
+BOOKMARKS_PAGE = https://ghost.example.com/ghost/api/content/pages/slug/bookmarks/
+CONTENT_KEY = your-ghost-content-api-key
+ADMIN_KEY = your-ghost-admin-api-key
